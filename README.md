@@ -8,4 +8,4 @@
 
 ## Current packages created from this repository
 ### [Gauge](http://getgauge.io/)
-To install Gauge via Chocolatey just run <blockquote>choco install gauge</blockquote>
+To install Gauge via Chocolatey just run <blockquote>choco install gauge</blockquote> or <blockquote>cinst gauge</blockquote>
