@@ -6,10 +6,3 @@ $silentArgs = '/S'
 $validExitCodes = @(0)
 
 Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url" "$url64"  -validExitCodes $validExitCodes
-
-try {
-  Write-ChocolateySuccess "$packageName"
-} catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw
-}

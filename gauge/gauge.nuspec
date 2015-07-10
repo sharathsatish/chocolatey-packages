@@ -16,7 +16,7 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/sharathsatish/chocolatey-packages/master/icons/gauge.png</iconUrl>-->
+    <iconUrl>https://github.com/getgauge/gauge/blob/master/Gauge-Logo.png</iconUrl>
     <dependencies>
     </dependencies>
     <releaseNotes></releaseNotes>
