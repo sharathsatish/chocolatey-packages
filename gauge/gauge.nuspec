@@ -5,18 +5,18 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>gauge</id>
     <title>Gauge</title>
-    <version>0.1.5</version>
+    <version>0.1.6</version>
 	<authors>ThoughtWorks</authors>
     <owners>Sharath Satish</owners>
     <summary>You can use this package to install Gauge on Windows</summary>
     <description>You can use this package to install Gauge on Windows</description>
     <projectUrl>http://getgauge.io/</projectUrl>
-    <tags>gauge test automation twist</tags>
+    <tags>gauge test automation</tags>
     <copyright>Copyright 2015 ThoughtWorks, Inc.</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl-3.0.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>http://cdn.rawgit.com/getgauge/gauge/45257480c768fb156a345e0fd824d2c2d18389ca/Gauge-Logo.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/getgauge/getgauge.github.io/master/new/assets/images/Gauge-Logo-no-name.png</iconUrl>
     <dependencies>
     </dependencies>
     <releaseNotes></releaseNotes>
