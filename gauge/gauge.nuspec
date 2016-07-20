@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>gauge</id>
     <title>Gauge</title>
-    <version>0.5.0</version>
+    <version>0.6.0</version>
 	<authors>ThoughtWorks</authors>
     <owners>Sharath Satish</owners>
     <summary>You can use this package to install Gauge on Windows</summary>
