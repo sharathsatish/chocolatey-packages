@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>gauge</id>
     <title>Gauge</title>
-    <version>0.6.0</version>
-	<authors>ThoughtWorks</authors>
+    <version>0.6.1</version>
+    <authors>ThoughtWorks</authors>
     <owners>Sharath Satish</owners>
     <summary>You can use this package to install Gauge on Windows</summary>
     <description>You can use this package to install Gauge on Windows</description>
@@ -19,7 +19,8 @@
     <iconUrl>https://cdn.rawgit.com/getgauge/getgauge.github.io/master/new/assets/images/Gauge-Logo-no-name.png</iconUrl>
     <dependencies>
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>
+    </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
