@@ -17,4 +17,4 @@ cpack
 git add tools gauge.nuspec
 git commit -m "gauge $($version)"
 git push origin master
-choco push "gauge.$($version).nupkg"
+choco push "gauge.$($version).nupkg" -k="$env:apiKey"
