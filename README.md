@@ -9,6 +9,7 @@
 ## Building package
 
 - ensure Chocolatey is installed.
+- `$env:version = <version>`
 - `choco pack --version=<version>`
 - `choco push "gauge.<version>.nupkg" -k="<api-key>"`
 
