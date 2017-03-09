@@ -1,7 +1,8 @@
 $packageName = 'gauge'
 $installerType = 'exe'
-$url = 'https://github.com/getgauge/gauge/releases/download/v0.8.1/gauge-0.8.1-windows.x86.exe'
-$url64 = 'https://github.com/getgauge/gauge/releases/download/v0.8.1/gauge-0.8.1-windows.x86_64.exe'
+$version = $env:version
+$url = "https://github.com/getgauge/gauge/releases/download/v{$version}/gauge-${version}-windows.x86.exe"
+$url64 = "https://github.com/getgauge/gauge/releases/download/v{$version}/gauge-${version}-windows.x86_64.exe"
 $silentArgs = '/S'
 $validExitCodes = @(0)
 
