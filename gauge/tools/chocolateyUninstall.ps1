@@ -1,0 +1,1 @@
+rm -r "C:\Program Files\gauge\bin\gauge.exe"
