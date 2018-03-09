@@ -6,6 +6,17 @@
 - Once install and uninstall are tested - Commit the scripts here and upload your package to [Chocolatey](http://chocolatey.org)
 - Edit this README file to add details of your chocolatey package
 
+## Building package
+
+- ensure Chocolatey is installed.
+- `$env:version = <version>`
+- `choco pack --version=<version>`
+- `choco push "gauge.<version>.nupkg" -k="<api-key>"`
+
 ## Current packages created from this repository
 ### [Gauge](http://getgauge.io/)
-To install Gauge via Chocolatey just run <blockquote>choco install gauge</blockquote> or <blockquote>cinst gauge</blockquote>
+To install Gauge via Chocolatey just run 
+
+```
+choco install gauge
+```
