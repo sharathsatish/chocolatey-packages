@@ -1,1 +1,1 @@
-Remove-Item -Recurse -Force "C:\Program Files\gauge"
+Remove-Item -Recurse -Force "$env:PROGRAMFILES\gauge"
