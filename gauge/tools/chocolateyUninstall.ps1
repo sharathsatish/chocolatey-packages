@@ -1,1 +1,1 @@
-rm -r "C:\Program Files\gauge\bin\gauge.exe"
+Remove-Item -Recurse -Force "C:\Program Files\gauge"
