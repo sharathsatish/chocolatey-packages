@@ -1,0 +1,16 @@
+$packageName = 'gauge'
+$url = "https://github.com/getgauge/gauge/releases/download/v{{version}}/gauge-{{version}}-windows.x86.zip"
+$url64 = "https://github.com/getgauge/gauge/releases/download/v{{version}}/gauge-{{version}}-windows.x86_64.zip"
+$location = "$env:PROGRAMFILES\gauge\bin"
+$validExitCodes = @(0)
+
+Write-Host -ForegroundColor yellow "We are constantly looking to make Gauge better, and report usage statistics anonymously over time. If you do not want to participate please read instructions https://manpage.gauge.org/gauge_telemetry_off.html on how to turn it off.`r`n"
+
+Install-ChocolateyZipPackage -PackageName "$packageName" -Url "$url" -Url64 "$url64" -UnzipLocation "$location" -validExitCodes $validExitCodes
+
+$currentPath = (Get-Itemproperty -path 'hklm:\system\currentcontrolset\control\session manager\environment' -Name Path).Path
+
+if($currentPath -NotLike "*$location*") {
+    $newPath = $currentPath + "$location"
+    Set-ItemProperty -path 'hklm:\system\currentcontrolset\control\session manager\environment' -Name Path -Value $newPath
+}
